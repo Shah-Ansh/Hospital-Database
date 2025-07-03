@@ -722,7 +722,7 @@ def new_Receptionist():
 
 def new_Tests():
     """
-    Function to implement new tests
+    Function to implement option 1
     """
     try:
         Case_id = input("Enter Case_id: ")
@@ -746,7 +746,7 @@ def new_Tests():
 
 def new_Workers():
     """
-    Function to implement new Worker addition
+    Function to implement option 1
     """
     try:
         # Worker_id = input("Enter Worker_id: ")
@@ -893,7 +893,16 @@ def option4():
 
 
 def hireAnEmployee():
-   
+    """
+    This is a sample function implemented for the refrence.
+    This example is related to the Employee Database.
+    In addition to taking input, you are required to handle domain errors as well
+    For example: the SSN should be only 9 characters long
+    Sex should be only M or F
+    If you choose to take Super_SSN, you need to make sure the foreign key constraint is satisfied
+    HINT: Instead of handling all these errors yourself, you can make use of except clause to print the error returned to you by MySQL
+    """
+
     alma_list = []
     try:
         # Doctor_ID = input("Enter Doctor ID: ")
@@ -1731,12 +1740,13 @@ while 1:
     password = input("Password: ")
 
     try:
-       
+        # Set db name accordingly which have been create by you
+        # Set host to the server's address if you don't want to use local SQL server
         con = pymysql.connect(
             host="localhost",
             port=3306,
-            user="root",
-            password=password,
+            user="newadmin",
+            password='Divyaraj@123',
             db="Hospital",
             cursorclass=pymysql.cursors.DictCursor,
         )
