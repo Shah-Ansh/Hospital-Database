@@ -207,8 +207,6 @@ The system is tailored for **practical use by non-technical users**:
 
 ---
 
-## ✅ Conclusion
-
 This **Hospital Management System** offers a foundational platform for efficient healthcare administration. Its modular architecture, comprehensive features, and ease of use make it ideal for small to mid-sized hospitals or as a prototype for real-world deployments.
 
 <div align="center">
@@ -222,29 +220,13 @@ This **Hospital Management System** offers a foundational platform for efficient
 
 ## 👥 Contributors
 
-<div align="center">
 
-<table>
-<td align="center">
-<strong>Divyarajsinh Mahida</strong><br/>
-</td>
-<td align="center">
-<strong>Neel Amrutia</strong><br/>
-</td>
-<td align="center">
-<strong>Umang Patel</strong><br/>
-</td>
-<td align="center">
-<strong>Archit Pethani</strong><br/>
-</td>
-<td align="center">
 <strong>Ansh Shah</strong><br/>
-</td>
-<td align="center">
-</td>
-</table>
+<strong>Neel Amrutia</strong><br/>
+<strong>Divyarajsinh Mahida</strong><br/>
+<strong>Archit Pethani</strong><br/>
+<strong>Umang Patel</strong><br/>
 
-</div>
 
 ---
 
